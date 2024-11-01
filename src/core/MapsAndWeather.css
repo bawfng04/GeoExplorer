@@ -1,0 +1,145 @@
+
+
+.jumpToGM {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.jumpToGM:hover {
+  background-color: #357738;
+  transform: translateY(-3px);
+}
+
+/* background of the componens */
+.searchBar input, select, .selectBox input, select, .mainFunctionDiv input, select{
+    background-color: #8482821a;
+}
+
+/* weather */
+.weather {
+  background-color: #f4f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  font-family: 'Arial', sans-serif;
+  animation: fadeIn 1s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather fieldset {
+  border: 2px solid #e57b34;
+  border-radius: 8px;
+  padding: 20px;
+  animation: scaleIn 0.5s ease-in-out;
+}
+
+.weather legend {
+  width: auto;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e57b34;
+  animation: slideInLeft 0.5s ease-in-out;
+  background-color: #f4f2f2;
+}
+
+.weather-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.weather-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  background-color: #f0f8ff;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  animation: bounceIn 0.5s ease-in-out;
+}
+
+.weather-info {
+  margin-top: 10px;
+}
+
+.weather-info h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.weather-info p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.weather-info p strong {
+  color: #333;
+}
+
+
+/* news */
+.news {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.news fieldset {
+  border: 2px solid #007bff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.news legend {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.news a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.news a:last-child {
+  border-bottom: none;
+}
+
+.news a:hover {
+  transform: translateY(-3px);
+  background-color: #007bff;
+  color: #fff;
+}
+
